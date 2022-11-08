@@ -72,7 +72,7 @@ class MainStack(Stack):
                                            [f.read()])])
 
         vin100 = ifw.Vehicle(self, 'vin100',
-                             vehicle_id='vin100',
+                             vehicle_name='vin100',
                              vehicle_model=model_a,
                              create_iot_thing=True)
 
@@ -88,7 +88,7 @@ class MainStack(Stack):
                                            [f.read()])])
 
         vin200 = ifw.Vehicle(self, 'vin200',
-                             vehicle_id='vin200',
+                             vehicle_name='vin200',
                              vehicle_model=model_b,
                              create_iot_thing=True)
 

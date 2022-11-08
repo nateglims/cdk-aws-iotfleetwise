@@ -130,7 +130,7 @@ class VehicleEc2Sim(Construct):
             ./tools/configure-fwe.sh \
             --input-config-file "configuration/static-config.json" \
             --output-config-file "/etc/aws-iot-fleetwise/config-0.json" \
-            --vehicle-id {vehicle.vehicle_id} \
+            --vehicle-id {vehicle.vehicle_name} \
             --endpoint-url "{vehicle.endpoint_address}" \
             --topic-prefix '$aws/iotfleetwise/' \
             --can-bus0 "vcan0"
